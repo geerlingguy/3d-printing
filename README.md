@@ -1,18 +1,20 @@
 # Jeff Geerling's 3D Printing Setup Guide
 
-<p align="center"><img src="images/3d-printer-in-enclosure.jpeg" width="360" height="321"></p>
-
 After spending many, many hours configuring things and adjusting my 3D Printing setup to my liking, I thought it would be a good idea to document everything here, not only for the benefit of others being able to learn from my setup, but also in case I need to replicate anything or a meteorite hits my printer and destroys it.
 
 I just really like being able to replicate things, not only in 3D space, but also in terms of setting something up exactly the same in case it explodes.
 
 ## 3D Printer
 
+<p align="center"><img src="images/3d-printer-in-enclosure.jpeg" width="360" height="321"></p>
+
 I use an [Creality Ender 3 V2](https://amzn.to/3hBAbpE). It was recommended as being one of the best beginner-friendly low-cost printers, and so far it's lived up to that reputation.
 
 It took a couple hours from unsealing the box to beginning my first print with the included white PLA filament, and only took a little adjustment before it was reliably printing objects.
 
 ### Printer Stand
+
+<p align="center"><img src="images/printer-stand-rolling-cart.jpeg" width="360" height="240"></p>
 
 I have my 3D Printer set up in my workshop, where I often need to move around large material (plywood sheets, etc.), and where there can be a lot of dust. So I wanted the printer to be easily movable yet still have a stable platform.
 
@@ -22,11 +24,15 @@ I admit, I kinda splurged on the stand. But I figure it should be able to last a
 
 ### Enclosure
 
+<p align="center"><img src="images/3d-printer-in-workshop.jpeg" width="360" height="240"></p>
+
 I bought Creality's official [Fireproof and Dustproof Enclosure](https://amzn.to/3eVEGJB), because I operate my 3D Printer in my basement, where it can be drafty, and get down to 64°F (17.8°C) in the winter. The enclosure ensures more uniformity and helps with print bed adhesion.
 
 It is a bit annoying working on things inside the enclosure sometimes (e.g. filament changes), but I can live with it.
 
 ### Analog clock
+
+<p align="center"><img src="images/equity-analog-clock.jpeg" width="360" height="240"></p>
 
 I placed an analog clock—specifically the [Equity by La Crosse](https://amzn.to/3frzxs3)—inside the enclosure in a place where cameras can see it in the background.
 
@@ -36,6 +42,8 @@ Plus it reminds me that it's 2 a.m. and I need to go to bed instead of observe a
 
 ### LED Light
 
+<p align="center"><img src="images/led-light.jpeg" width="360" height="184"></p>
+
 I bought a [Gulfcoast Robotics White LED kit](https://amzn.to/3eVXdpm) for my printer, as I wanted something low-profile but bright enough to make both photography and visibility easier.
 
 If anything, I'd like the LED light to be even larger (more surface area) and stick out further to the front of the printer, just to give more even lighting... but I'm happy enough with the value and sleekness of this light—it looks like part of the printer.
@@ -44,6 +52,8 @@ One caveat: if you print to the maximum build volume height, the light may get i
 
 ### Webcam Camera Arm
 
+<p align="center"><img src="images/logitech-c920-on-arm.jpeg" width="360" height="240"></p>
+
 After finding OctoPrint, I decided I wanted to permanently mount my Logitech C920 webcam _inside_ the enclosure (instead of having it on a tripod outside the enclosure, looking through an open flap).
 
 Looking through hundreds of options on Thingiverse, I settled on using Stewpercharged's [Ultimate Sturdy Octoprint Camera Mount](https://www.thingiverse.com/thing:3374914), but instead of mounting a Pi Camera to it, I designed a custom [Camera Tripod Mount Adapter](https://www.thingiverse.com/thing:4859975) for it, so I could screw my Logitech C920 on permanently.
@@ -51,6 +61,8 @@ Looking through hundreds of options on Thingiverse, I settled on using Stewperch
 I affixed the Tripod mount adapter to the arm using a #8 machine screw and nut, and then used a 1/4" Tripod screw (I had one in my [SmallRig Camera Screw set](https://amzn.to/33UOkGe)) to mount the Webcam to the adapter.
 
 ## OctoPrint
+
+<p align="center"><img src="images/octoprint-control-preview.jpeg" width="360" height="203"></p>
 
 I found out about OctoPrint around the same time I decided to buy my 3D Printer. I had recently been made a 'GitHub Star', and in some conversation with another Star, [Gina Häußge](https://foosel.net), I discovered the wonderful ecosystem around OctoPrint, a free and open source 3D Printer web interface (and oh-so-much-more!).
 
