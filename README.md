@@ -96,7 +96,11 @@ I might also manually adjust exposure in the future too—currently I let it aut
 
 ### Octolapse and Nikon D700
 
-TODO: Discuss how I have my Nikon D700 set up with Octolapse for really beautiful print timelapses.
+<center><img src="images/pi-rack-tray-3d-print-octolapse.gif" width="500" height="282"></center>
+
+I have an old Nikon D700 (one of my favorite cameras of all time), with a Nikon 60mm AF-D Macro lens, and it is perfect for a time-lapse camera, as it can be remote controlled over USB, and works with the [Octolapse plugin](https://plugins.octoprint.org/plugins/octolapse/).
+
+I set the camera in full manual (including manual focus), and here's a blog post discussing how I set it up to work with Octolapse to create beautiful time-lapses of my prints: [Beautiful 3D Print time-lapses with my Nikon D700 and Octolapse](https://www.jeffgeerling.com/blog/2021/beautiful-3d-print-time-lapses-my-nikon-d700-and-octolapse).
 
 ### OctoText
 
