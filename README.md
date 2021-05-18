@@ -1,4 +1,4 @@
-# Jeff Geerling's 3D Printing Setup Guide
+# Jeff Geerling's 3D Printing Setup
 
 After spending many, many hours configuring things and adjusting my 3D Printing setup to my liking, I thought it would be a good idea to document everything here, not only for the benefit of others being able to learn from my setup, but also in case I need to replicate anything or a meteorite hits my printer and destroys it.
 
