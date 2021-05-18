@@ -1,5 +1,7 @@
 # Jeff Geerling's 3D Printing Setup Guide
 
+<p align="center"><img src="images/3d-printer-in-enclosure.jpeg" width="600" height="536"></p>
+
 After spending many, many hours configuring things and adjusting my 3D Printing setup to my liking, I thought it would be a good idea to document everything here, not only for the benefit of others being able to learn from my setup, but also in case I need to replicate anything or a meteorite hits my printer and destroys it.
 
 I just really like being able to replicate things, not only in 3D space, but also in terms of setting something up exactly the same in case it explodes.
