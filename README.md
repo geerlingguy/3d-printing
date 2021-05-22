@@ -106,7 +106,17 @@ sudo v4l2-ctl --set-ctrl=focus_auto=0
 sudo v4l2-ctl --set-ctrl=focus_absolute=18
 ```
 
-I might also manually adjust exposure in the future too—currently I let it autoexpose because I have a dimmable LED light, and if I want to keep it dimmer, the autoexposure can compensate.
+Generally I leave the camera in the normal autoexpose mode since I may have different lighting conditions depending on what kind of print I'm doing and how long it takes.
+
+But if I'm trying to get a good timelapse or video, I'll also set exposure manually:
+
+```
+# Disable autoexposure.
+sudo v4l2-ctl --set-ctrl=exposure_auto=1
+
+# Set an absolute value for exposure (10000 = 1 second).
+sudo v4l2-ctl --set-ctrl=exposure_absolute=220
+```
 
 ### Octolapse and Nikon D700
 
