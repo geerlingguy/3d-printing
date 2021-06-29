@@ -115,7 +115,7 @@ But if I'm trying to get a good timelapse or video, I'll also set exposure manua
 sudo v4l2-ctl --set-ctrl=exposure_auto=1
 
 # Set an absolute value for exposure (10000 = 1 second).
-sudo v4l2-ctl --set-ctrl=exposure_absolute=220
+sudo v4l2-ctl --set-ctrl=exposure_absolute=180
 ```
 
 ### Octolapse and Nikon D700
