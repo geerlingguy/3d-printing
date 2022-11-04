@@ -92,25 +92,19 @@ You could use a higher resolution or framerate, but there are diminishing return
 
 If you use an older Pi for OctoPrint, you may want to lower the resolution to 480p. And technically you could drop the framerate much lower if you just want to see what the printer's doing (and not sit mesmerized watching the print from afar, like I do).
 
-#### Webcam manual focus
+#### Webcam manual focus and exposure
 
 One thing that bothered me a lot until I found [this blog post](https://blog.ktz.me/disable-autofocus-in-octoprint-with-a-logitech-c920-webcam/) was the fact that the terrible autofocus on the Logitech C920 would never focus on the print, but rather on various uninteresting things like the back of the enclosure, or a speck of dust on the front of the print bed.
 
-To disable autofocus and set a focus point, you can use `v4l2-ctl` to do it inside `/home/pi/mjpg-streamer/start.sh`:
+To use manual autofocus and exposure, use `v4l2-ctl` and place the following inside `/home/pi/mjpg-streamer/start.sh`:
 
 ```
 # Disable autofocus.
 sudo v4l2-ctl --set-ctrl=focus_auto=0
 
 # Set focus value to range 1-255 (255 being extreme closeup).
-sudo v4l2-ctl --set-ctrl=focus_absolute=18
-```
+sudo v4l2-ctl --set-ctrl=focus_absolute=22
 
-Generally I leave the camera in the normal autoexpose mode since I may have different lighting conditions depending on what kind of print I'm doing and how long it takes.
-
-But if I'm trying to get a good timelapse or video, I'll also set exposure manually:
-
-```
 # Disable autoexposure.
 sudo v4l2-ctl --set-ctrl=exposure_auto=1
 
