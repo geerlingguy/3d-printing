@@ -96,20 +96,30 @@ If you use an older Pi for OctoPrint, you may want to lower the resolution to 48
 
 One thing that bothered me a lot until I found [this blog post](https://blog.ktz.me/disable-autofocus-in-octoprint-with-a-logitech-c920-webcam/) was the fact that the terrible autofocus on the Logitech C920 would never focus on the print, but rather on various uninteresting things like the back of the enclosure, or a speck of dust on the front of the print bed.
 
-To use manual autofocus and exposure, use `v4l2-ctl` and place the following inside `/home/pi/mjpg-streamer/start.sh`:
+To use manual autofocus and exposure, you can use `v4l2-ctl`. To make these changes automated so they apply every time you reboot the Pi running OctoPrint, add the following configuration to the file `~/.octoprint/config.yaml`:
+
+```yaml
+events:
+  subscriptions:
+  - command:
+    # Disable autofocus.
+    - v4l2-ctl --set-ctrl=focus_auto=0
+    # Set focus value to range 1-255 (255 being extreme closeup).
+    - v4l2-ctl --set-ctrl=focus_absolute=22
+    # Disable autoexposure.
+    - v4l2-ctl --set-ctrl=exposure_auto=1
+    # Set an absolute value for exposure (10000 = 1 second).
+    - v4l2-ctl --set-ctrl=exposure_absolute=170
+    event: Startup
+    type: system
+```
+
+After you reboot, these four commands should be run, and OctoPrint will reformat the `config.yaml` file, likely removing the inline comments.
+
+If you require a password to be entered for `sudo` use as the `pi` user, you will also need to add a file named `/etc/sudoers.d/octoprint-v4l2`, and put the following inside:
 
 ```
-# Disable autofocus.
-sudo v4l2-ctl --set-ctrl=focus_auto=0
-
-# Set focus value to range 1-255 (255 being extreme closeup).
-sudo v4l2-ctl --set-ctrl=focus_absolute=22
-
-# Disable autoexposure.
-sudo v4l2-ctl --set-ctrl=exposure_auto=1
-
-# Set an absolute value for exposure (10000 = 1 second).
-sudo v4l2-ctl --set-ctrl=exposure_absolute=180
+pi ALL=NOPASSWD: /usr/bin/v4l2-ctl
 ```
 
 ### Octolapse and Nikon D700
