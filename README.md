@@ -10,17 +10,17 @@ _Click on the name of a 3D Printer for more details._
 
 | Printer | Location | Date of First Deployment |
 | ------- | -------- | ------------------------ |
-| [Creality Ender 3 V2](#creality-ender-3-v2) | Home (basement) | 2020-12 |
-| [Creality Ender 3 S1](#creality-ender-3-s1) | Studio | 2024-06 |
+| [Creality Ender 3 V2](#creality-ender-3-v2) | (Retired) | 2020-12 |
+| [Creality Ender 3 S1](#creality-ender-3-s1) | (Retired) | 2024-06 |
 | [Bambu Lab P1S](#bambu-lab-p1s) | Studio | 2024-06 |
 | [Prusa MK4](#prusa-mk4) | Studio | 2024-06 |
-| [Positron V3.2](#positron-v32) | Studio | TBD |
+| [Positron V3.2](#positron-v32) | Home | 2024-08 |
 
-## Creality Ender 3 V2
+## Creality Ender 3 V2 (Retired)
 
 <p align="center"><img src="images/3d-printer-in-enclosure.jpeg" width="360" height="321"></p>
 
-I use an [Creality Ender 3 V2](https://amzn.to/3hBAbpE) at home. It was recommended as a beginner-friendly low-cost printer, and I bought mine on sale for $219 from Woot in late 2020.
+I used to have a [Creality Ender 3 V2](https://amzn.to/3hBAbpE) at home. It was recommended as a beginner-friendly low-cost printer, and I bought mine on sale for $219 from Woot in late 2020.
 
 It took a couple hours from unsealing the box to beginning my first print with the included white PLA filament, and only took a little adjustment before it was reliably printing objects.
 
@@ -150,7 +150,7 @@ Luckily, there's a plugin called [OctoText](https://plugins.octoprint.org/plugin
 
 I set it up with an app-specific SMTP credential from FastMail, and then configured OctoText to send me a text when the print completes.
 
-## Creality Ender 3 S1
+## Creality Ender 3 S1 (Retired)
 
 TODO: Image of the printer goes here.
 
@@ -176,7 +176,11 @@ Realizing each PIZ dispenser would take 20-30 hours to print on my two Ender 3's
 
 I didn't realize how fast 3D printers had become, and this was my first introduction to CoreXY printing.
 
-TODO: Describe my setup more in detail, and include mods I installed. See [#12](https://github.com/geerlingguy/3d-printing/issues/12).
+### Current Mods
+
+  - [Bigq Panda Touch](https://github.com/geerlingguy/3d-printing/issues/12)
+  - [Bigq Panda Lux](https://github.com/geerlingguy/3d-printing/issues/12)
+  - [Poop chute with removable basket](https://www.printables.com/model/540242-poop-chute-with-removable-basket-3-sizes-for-bambu)
 
 ## Prusa MK4
 
@@ -192,7 +196,9 @@ TODO: Describe my setup more in detail, and include mods I installed. See [#13](
 
 TODO: Image of the printer goes here.
 
-I... am procrastinating building this printer. See [#14](https://github.com/geerlingguy/3d-printing/issues/14) for current status.
+Having never built a Voron before, I was in for an experience putting together a Positron V3.2 kit generously provided by LDO Motors.
+
+See [#14](https://github.com/geerlingguy/3d-printing/issues/14) for current status.
 
 ## Author
 
