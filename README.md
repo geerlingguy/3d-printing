@@ -200,6 +200,14 @@ Having never built a Voron before, I was in for an experience putting together a
 
 See [#14](https://github.com/geerlingguy/3d-printing/issues/14) for current status.
 
+## 3D Printing Safety
+
+I think I should point out that I mostly print PLA, and have very little concern about the small amount of plastic fumes put off while printing that material. I have the printers in an open area with very good ventilation.
+
+But if you are in a cramped space without good ventilation... maybe consider not doing that!
+
+I'm not an expert on 3D printing safety, but I do know it's a good idea to have good ventilation at a minimum. And if you print in resin or use more exotic materials, _please_ read the safety warnings that come with all the equipment you're using, and set them up in a safe way.
+
 ## Author
 
 This repository is maintained by [Jeff Geerling](https://www.jeffgeerling.com).
