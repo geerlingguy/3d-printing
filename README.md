@@ -234,6 +234,22 @@ That means keeping in mind:
 
 Trying to teach CAD for 3D Printing is difficult. You kinda have to just 'do it', then figure out all the pitfalls as you mess up model after model.
 
+## Slicers and Preparing for a Print
+
+I originally used [Cura](https://ultimaker.com/software/ultimaker-cura/) with my Ender 3s, but once I got a Positron, a Prusa MK4, and a Bambu Labs P1S, I decided to switch over to a slicer that has a little more universal support and modern feature set: [OrcaSlicer](https://www.orcaslicer.com).
+
+Slicing is also somewhat of an art; some printers, some beds, some filaments, even some _models_ on some printers, beds, and filaments all vary quite a bit in 'printability'.
+
+Will it remain stuck to the build plate, or will it peel off during the print? Will supports be required? And if so, can you print supports in a way they are easily removed, or will they get stuck in the print?
+
+Do you need more strength, or more flexibility? What pattern should you use for infill.
+
+Again, I can't imagine giving a full treatment to these topics—and dozens more—in this simple README.
+
+I've learned a lot from YouTube channels on 3D printing, like [Maker's Muse](https://www.youtube.com/c/MakersMuse/videos), [CNC Kitchen](https://www.youtube.com/@CNCKitchen), [3D Printing Nerd](https://www.youtube.com/@3DPrintingNerd), and [Lost in Tech](https://www.youtube.com/@LostInTech3D).
+
+But just like CAD for 3D Printing, slicing is somewhat an art—and it's an art you can only perfect on your _own_ printers, filaments, and environment, as there are no universals (e.g. humidity affects print quality quite dramatically...).
+
 ## Author
 
 This repository is maintained by [Jeff Geerling](https://www.jeffgeerling.com).
