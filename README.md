@@ -208,6 +208,32 @@ But if you are in a cramped space without good ventilation... maybe consider not
 
 I'm not an expert on 3D printing safety, but I do know it's a good idea to have good ventilation at a minimum. And if you print in resin or use more exotic materials, _please_ read the safety warnings that come with all the equipment you're using, and set them up in a safe way.
 
+## 3D Printing Models and CAD
+
+When I need a random part/bin/doodad, I typically see if one exists for cheap pre-manufactured on Amazon or some other supplier.
+
+If not, I may look on [Printables](https://www.printables.com) for a 3D model I can print. Sometimes one exists that's perfect for my needs, other times I see something that's useful but not quite what I need.
+
+If I need to design my own 3D printable design, I usually use AutoDesk Fusion.
+
+There are a number of good options for 3D CAD, though, depending on your needs and budget:
+
+  - [AutoDesk TinkerCad](https://www.tinkercad.com) - Free, browser based, and relatively easy to pick up and use
+  - [OpenSCAD](https://openscad.org) - Use code to generate 3D models. Extremely useful for simpler models. Harder for more creative stuff
+  - [FreeCAD](https://www.freecad.org) - A free CAD application, works well almost anywhere, but is not as featureful or intuitive as other options
+  - [AutoDesk Fusion](https://www.autodesk.com/campaigns/fusion-360/download) - Free option but gets expensive fast (The CAD app I use most often)
+  - [OnShape](https://www.onshape.com/en/pricing) - Free option but gets expensive fast
+
+In the end, I try to get an STL file with as little work required as possible to get a good print.
+
+That means keeping in mind:
+
+  - Gravity exists
+  - You can't print things in thin air (either plan for supports, or design overhanging features wisely)
+  - Print materials affect design features sometimes
+
+Trying to teach CAD for 3D Printing is difficult. You kinda have to just 'do it', then figure out all the pitfalls as you mess up model after model.
+
 ## Author
 
 This repository is maintained by [Jeff Geerling](https://www.jeffgeerling.com).
